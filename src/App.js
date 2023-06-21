@@ -11,8 +11,7 @@ function App ()  {
         <div>
           <Header/>
 <Pages/>
-            <Genre/>
-            <New/>
+
             <Footer/>
         </div>
     );

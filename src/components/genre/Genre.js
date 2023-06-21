@@ -1,6 +1,5 @@
 import React from 'react';
 import './Ganre.css'
-// import './img11'
 import img8 from '../../assets/img/image 8.svg'
 import img1 from '../../assets/img/image 8 (1).svg'
 import img2 from '../../assets/img/image 8 (2).svg'
