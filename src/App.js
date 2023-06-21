@@ -1,10 +1,13 @@
 import React from 'react';
+import "./style.scss"
 import Header from "./components/header/header";
+import Pages from "./components/pages/pages";
 
-const App = () => {
+function App ()  {
     return (
         <div>
           <Header/>
+<Pages/>
         </div>
     );
 };
