@@ -5,7 +5,7 @@ const AllBooks = () => {
         <div id="books">
             <div className="books">
                 <div className="books--title">
-                    <h1></h1>
+                    <h1>All Books</h1>
                 </div>
                 <div className="books--center"></div>
                 <div className="books--bottom"></div>

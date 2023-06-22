@@ -2,6 +2,7 @@ import React from 'react';
 import {BiSearch} from "react-icons/bi";
 import "./style.scss"
 import {HiOutlineShoppingBag} from "react-icons/hi";
+import {NavLink} from "react-router-dom";
 const Header = () => {
     return (
             <div id="header">
@@ -11,10 +12,10 @@ const Header = () => {
                              id="navbarSupportedContent">
                             <ul className="navbar-nav mr-auto">
                                 <li className="nav-item active ">
-                                    <a className="nav-link" href="#">Bookshop</a>
+                                    <NavLink to={"/"} className="nav-link" href="#">Bookshop</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Categories</a>
+                                    <NavLink to={"/books"} className="nav-link" href="#">Categories</NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <a className="nav-link " href="#">Recent</a>
