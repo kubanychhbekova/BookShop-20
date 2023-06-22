@@ -16,7 +16,7 @@ code {
   width: 80%;
 
 }
-}
+
 .containerScroll{
   max-width: 1350px;
   margin: auto;
@@ -33,3 +33,4 @@ code {
 .data div>div{
   margin-left: 25px;
 }
+.data::-webkit-scrollbar{width: 0}
