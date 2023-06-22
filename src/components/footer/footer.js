@@ -2,8 +2,9 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div id="footer">
+        <div id='footer'>
             <div className='container'>
+<<<<<<<<< Temporary merge branch 1
                 <div className='footer'>
                     <div className='footer--block'>
                         <h1>Sign up for our newsletter</h1>
@@ -64,6 +65,47 @@ const Footer = () => {
                 </div>
 
 
+=========
+                <div className='footer--block'>
+                    <h1>Sign up for our newsletter</h1>
+                   <p>Be the first to know about our special offers, news, and updates.</p>
+                  <input type="email"/>
+
+                <div/>
+                    <div className='footer-title'>
+                        <h4>Lorem Ipsum</h4>
+                        <p>lorem</p>
+                        <p>lorem</p>
+                        <p>lorem</p>
+                        <p>lorem</p>
+                        <p>lorem</p>
+                    </div>
+                    <div className='footer-title'>
+                        <h4>Lorem Ipsum</h4>
+                        <p>lorem</p>
+                        <p>lorem</p>
+                        <p>lorem</p>
+                        <p>lorem</p>
+                        <p>lorem</p>
+                    </div>
+                    <div className='footer-title'>
+                        <h4>Lorem Ipsum</h4>
+                        <p>lorem</p>
+                        <p>lorem</p>
+                        <p>lorem</p>
+                        <p>lorem</p>
+                        <p>lorem</p>
+                    </div>
+                    <div className='footer-title'>
+                        <h4>Lorem Ipsum</h4>
+                        <p>lorem</p>
+                        <p>lorem</p>
+                        <p>lorem</p>
+                        <p>lorem</p>
+                        <p>lorem</p>
+                    </div>
+            </div>
+>>>>>>>>> Temporary merge branch 2
 
             </div>
         </div>
