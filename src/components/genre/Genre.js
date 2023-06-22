@@ -6,13 +6,14 @@ import img2 from '../../assets/img/image 8 (2).svg'
 import img3 from '../../assets/img/image 8 (3).svg'
 import img4 from '../../assets/img/image 8 (4).svg'
 import img5 from '../../assets/img/image 8 (5).svg'
+import {NavLink} from "react-router-dom";
 const Pages = () => {
     return (
         <div className='container'>
             <div className='hero-3'>
                 <div className='texts-1'>
                     <h1>Genres</h1>
-                    <p className='p-1'>View all</p>
+                    <NavLink  to={"/books"}   className='p-1'>View all</NavLink>
                 </div>
                 <div className='blocks'>
                     <div className='block'>

@@ -7,6 +7,7 @@ const Scrollable = props =>{
             {
                 React.Children.map(props.children, child =>React.Children.only(child))
             }
+
         </div>
     )
 }
