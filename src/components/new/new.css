@@ -24,6 +24,7 @@
     flex-direction: column;
     justify-content: space-between;
     margin-top: 30px;
+    cursor: pointer;
 }
 .book h4{
     font-size: 22px;
@@ -44,6 +45,7 @@
      flex-direction: column;
     justify-content: space-between;
      margin: 0 80px;
+    cursor: pointer;
 }
 .book-1 h4{
     font-size: 22px;
@@ -64,6 +66,7 @@
     flex-direction: column;
      justify-content: space-between;
     margin-top: 50px;
+    cursor: pointer;
  }
 .book-2 h4{
       font-size: 22px;
