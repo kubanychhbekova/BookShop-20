@@ -4,9 +4,10 @@ const Footer = () => {
     return (
         <div id="footer">
             <div className='container'>
+<<<<<<<<< Temporary merge branch 1
+=========
 
-
-
+>>>>>>>>> Temporary merge branch 2
                 <div className='footer'>
                     <div className='footer--block'>
                         <h1>Sign up for our newsletter</h1>
@@ -67,11 +68,12 @@ const Footer = () => {
                 </div>
 
 
+<<<<<<<<< Temporary merge branch 1
+=========
 
 
 
-
-
+>>>>>>>>> Temporary merge branch 2
 
             </div>
         </div>
